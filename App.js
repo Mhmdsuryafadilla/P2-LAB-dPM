@@ -6,13 +6,13 @@ const App = () => {
     <View style={styles.mainContainer}>
       {}
       <View style={styles.textWrapper}>
-        <Text style={styles.textStyle}>Teks di Tengah</Text>
+        <Text style={styles.textStyle}>Boneka Ambalabu</Text>
       </View>
 
       {}
       <View style={styles.boxRow}>
-        <View style={[styles.box, { backgroundColor: '#4CAF50' }]} />
-        <View style={[styles.box, { backgroundColor: '#FF5722' }]} />
+        <View style={[styles.box, { backgroundColor: 'gold' }]} />
+        <View style={[styles.box, { backgroundColor: 'cyan' }]} />
       </View>
     </View>
   );
